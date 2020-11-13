@@ -1,0 +1,12 @@
+{
+  "name": "react-konva-helpers",
+  "version": "0.0.1",
+  "description": "Common graphical elements not supported out of the box by react-konva",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Tait Brown <taitbrown@gmail.com>",
+  "devDependencies": {
+    "konva": "^7.1.6",
+    "react-konva": "^17.0.0-0"
+  }
+}
