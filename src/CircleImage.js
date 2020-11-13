@@ -12,7 +12,7 @@ const CircleImage = ({ src, ...props }) => {
     }
     return (
         <Group clipFunc={ctx => calcClipFunc(ctx, x, y, radius)}>
-            <Image {...props} image={loadedSrc} />
+            <Image {...props} image={src} />
         </Group>
     );
 }
